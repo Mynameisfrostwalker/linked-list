@@ -1,9 +1,9 @@
 
 class ListNode {
-    public value: unknown | null;
-    public nextNode: ListNode | null; 
+    public value;
+    public nextNode; 
 
-    constructor(value = null, nextNode = null) {
+    constructor(value: unknown | null = null, nextNode: ListNode | null = null) {
         this.value = value;
         this.nextNode = nextNode;
     }
